@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+
+<head>
+    <meta charset=" UTF-8 " />
+    <meta name="viewport " content="width=device-width, initial-scale=1.0 " />
+    <link rel="stylesheet " href="website2.css " />
+    <script src="v.js"></script>
+
+    <title>swegga</title>
+</head>
+
+<body>
+    <div class="main ">
+        <div class="navbar "><img src="swegga.jpg " height="40% " /></div>
+        <h1 style="color:royalblue ">FREE Delivery</h1>
+        <div class="grid-container ">
+            <div class="grid-item "> <a href="home.html">Home
+                </a>
+            </div>
+            <div class="grid-item ">
+                <a href="Services.html">Services</a>
+            </div>
+            <div class="grid-item ">
+                <a href="Products">Product</a>
+            </div>
+            <div class="grid-item ">
+                <a href="Order Status">Order Status</a>
+            </div>
+            <div class="grid-item ">
+                <a href="Contact Us">Contact Us</a>
+            </div>
+        </div>
+        <h2 style="color: blue ">Product Summary</h2>
+        <table style="width: 100% ">
+            <tr>
+                <th>Description</th>
+                <th>Size</th>
+                <th>Colour</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>Total</th>
+            </tr>
+            <tr>
+                <td><a href="#">Female Ski Jackets</a></td>
+                <td><select id="sizes">
+                    <option value="item-1">Small</option>
+                    <option value="item-2">Medium</option>
+                    <option value="item-3">Large</option>
+              </select></td>
+                <td><select id="colors">
+                    <option value="item-1">Red</option>
+                    <option value="item-2">Pink</option>
+                    <option value="item-3">Black</option>
+              </select></td>
+
+                <td id="fprice">150.95</td>
+                <td><input type="text" id="famount" /></td>
+                <td><input type="text" id="fresult" /></td>
+
+            </tr>
+            <tr>
+
+
+                <td><a href="#">Male Ski Jackets</a></td>
+                <td><select id="sizes">
+                    <option value="item-1">Small</option>
+                    <option value="item-2">Medium</option>
+                    <option value="item-3">Large</option>
+              </select></td>
+                <td><select id="colors">
+                    <option value="item-1">Red</option>
+                    <option value="item-2">Blue</option>
+                    <option value="item-3">White</option>
+              </select></td>
+
+                <td id="fprice">180.95</td>
+                <td><input type="text" id="mamount" /></td>
+                <td><input type="text" id="mresult" /></td>
+            </tr>
+            <tr>
+                <td colspan="4">Click to confirm and process your order:</td>
+                <td>
+                    <input type="button" id="calc" onclick="totalcost('famount')" value="Total Amount" />
+                </td>
+                <td><input type="text" id="result" /></td>
+
+            </tr>
+        </table>
+
+        <footer>
+            <p>© 2014 Swegga Fashion - Designed by Skylar the great;)</p>
+        </footer>
+        <div style="background-image: url('ski.jpg');">
+</body>
+
+</html> 

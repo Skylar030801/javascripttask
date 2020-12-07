@@ -1,0 +1,49 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  background-color: #ac0000;
+  padding: 5px;
+  grid-column-gap: 10px;
+  width: 80%;
+}
+.grid-item {
+  background-color: rgb(155, 124, 255);
+  border: 5px solid rgb(0, 3, 179);
+  padding: 5px;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  border-radius: 0px 15px 0px 15px;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+}
+.navbar {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  display: block;
+  height: 100%;
+  width: 140px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+.main {
+  margin-left: 160px;
+}
+footer {
+  border-top: 1px solid #aaa;
+  border-clip: 3in;
+  padding: 0.3em 0;
+  margin: 10px 0;
+  text-align: right;
+}
+h2 {
+  text-align: center;
+}
