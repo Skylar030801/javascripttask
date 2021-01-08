@@ -1,0 +1,65 @@
+body {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 5s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+h1 {
+  width: 100%;
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 200px;
+  margin-top: -250px;
+  margin-left: 500px;
+}
+.topnav {
+  float: right;
+  font-size: 230%;
+  margin-bottom: 900px;
+  margin-top: -150px;
+}
+/*div:hover {
+  background-color: black;
+}*/
+.about:hover {
+  background-color: black;
+}
+.home:hover {
+  background-color: black;
+}
+.portfolio:hover {
+  background-color: black;
+}
+.contact:hover {
+  background-color: black;
+}
+
+img {
+  height: 400px;
+  margin-left: 500px;
+  margin-bottom: 300px;
+  margin-top: -50px;
+}
+
+img:hover {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+.logo {
+  height: 50px;
+  width: 50px;
+  margin-left: 20px;
+  margin-bottom: 90px;
+  margin-top: 25px;
+}

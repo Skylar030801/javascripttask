@@ -1,0 +1,297 @@
+body {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 5s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.topnav {
+  float: right;
+  font-size: 230%;
+  /*margin-bottom: 900px;*/
+  /*margin-top: -150px;*/
+}
+.logo {
+  height: 50px;
+  width: 50px;
+  margin-left: 20px;
+  margin-bottom: 90px;
+  margin-top: 25px;
+}
+
+.home:hover {
+  background-color: black;
+}
+.portfolio:hover {
+  background-color: black;
+}
+.contact:hover {
+  background-color: black;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.image-box {
+  box-shadow: inset 0 0 0 100vw rgba(0, 0, 0, 0.5);
+
+  background: url() center center;
+  background-size: cover;
+
+  color: white;
+  min-height: 72vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  transition: box-shadow 0.3s ease-out;
+}
+.image-box:hover {
+  box-shadow: inset 0 0 0 100vw rgba(0, 0, 0, 0.2);
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+h1 {
+  font-size: 40px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  background: white;
+  width: 300px;
+  border-width: 50px;
+  border-color: black;
+}
+
+.card img {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.container {
+  padding: 2px 16px;
+  color: black;
+}
+
+.container img {
+  width: 100%;
+}
+
+h3 {
+  font-size: 3.5em;
+  font-family: "Easy script";
+  margin-bottom: 0;
+}
+
+.class-subheading {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.class-subheading a {
+  font-family: "Easy script";
+  font-size: 2em;
+}
+
+.container {
+  padding: 2px 16px;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.container img {
+  width: 100%;
+}
+
+h3 {
+  font-size: 3.5em;
+  font-family: "Easy script";
+  margin-bottom: 0;
+}
+
+.class-subheading {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.class-subheading a {
+  font-family: "Easy script";
+  font-size: 2em;
+}
+
+.container {
+  padding: 2px 16px;
+  color: black;
+}
+
+.container img {
+  width: 100%;
+}
+
+h3 {
+  font-size: 3.5em;
+  font-family: "Easy script";
+  margin-bottom: 0;
+}
+
+.class-subheading {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.class-subheading a {
+  font-family: "Easy script";
+  font-size: 2em;
+}
+
+.card:hover {
+  transform: translate(20px);
+}
+
+.class-subheading:hover {
+  color: white;
+}
+.header {
+  display: inline;
+}
+.card-container {
+  display: flex;
+  /* padding: 0 20vw; */
+  justify-content: space-around;
+  /* width: 100vw; */
+  /* box-sizing: border-box; */
+  /* height: 30vh; */
+}
+.header img {
+  /* float: left; */
+  width: 100px;
+  height: 100px;
+  background: #555;
+  margin-left: 100px;
+}
+
+.header h1 {
+  position: left;
+  top: 18px;
+  left: 10px;
+}
+
+.class-subheading a:hover {
+  background-color: white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 60%;
+  background-color: #ddd;
+  margin: 0 auto;
+  text-align: center;
+  border: #555;
+  border-width: 1px 0 0 1px;
+}
+
+.skills {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  text-decoration: underline;
+}
+
+.html {
+  width: 90%;
+  background-color: black;
+  animation: html 2s linear;
+}
+.css {
+  width: 80%;
+  background-color: black;
+  animation: css 2.5s linear;
+}
+.js {
+  width: 70%;
+  background-color: black;
+  animation: js 3s linear;
+}
+.python {
+  width: 73%;
+  background-color: black;
+  animation: python 3.5s linear;
+}
+
+@keyframes html {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+@keyframes css {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 80%;
+  }
+}
+
+@keyframes js {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 70%;
+  }
+}
+
+@keyframes python {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 73%;
+  }
+}
+
+.about {
+  text-align: center;
+  text-decoration: underline;
+}
+
+h1 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.paragraph {
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}

@@ -1,0 +1,170 @@
+body {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 5s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.topnav {
+  float: right;
+  font-size: 230%;
+  margin-bottom: 900px;
+  margin-top: -150px;
+}
+
+.about:hover {
+  background-color: black;
+}
+.home:hover {
+  background-color: black;
+}
+.portfolio:hover {
+  background-color: black;
+}
+.contact:hover {
+  background-color: black;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+  text-decoration: underline;
+}
+form {
+  text-align: left;
+  font-size: 200%;
+  margin: 10%;
+  text-decoration: underline;
+  border-style: solid;
+  border-width: 7px;
+  border-left-width: 10px;
+  border-right-width: 10px;
+  border-color: black;
+  border-radius: 50px;
+}
+
+input[type="text"] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 5px;
+  box-sizing: border-box;
+}
+
+input[type="email"] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 79px;
+  box-sizing: border-box;
+}
+
+input[type="subject"] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 50px;
+  box-sizing: border-box;
+}
+
+textarea[name="message"] {
+  width: 50%;
+  height: 100px;
+  padding: 12px 20px;
+  margin: 8px 35px;
+  box-sizing: border-box;
+}
+
+input[type="number"] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 50px;
+  box-sizing: border-box;
+}
+
+button[type="submit"] {
+  width: 120px;
+  height: 80px;
+  font-size: 30px;
+}
+
+button[type="submit"]:hover {
+  color: red;
+  background-color: grey;
+}
+
+#footer-outer {
+  background-color: #000000;
+}
+
+#footer-outer,
+#nectar_fullscreen_rows > #footer-outer.wpb_row .full-page-inner-wrap {
+  color: #ccc;
+  z-index: 10;
+  background-color: #252525;
+}
+
+.div {
+  vertical-align: baseline;
+  font-family: inherit;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  outline: 0;
+  padding: 0;
+  margin: 70px 0px;
+  border: 0;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-instagram {
+  background: pink;
+  color: white;
+}
+
+.fa-github {
+  background: grey;
+  color: white;
+}
+
+.fa-linkedin {
+  background: grey;
+  color: white;
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
+  margin-left: 20px;
+  margin-bottom: 90px;
+  margin-top: 25px;
+}
+
+footer {
+  font-size: 200%;
+}
